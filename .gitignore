@@ -1,0 +1,10 @@
+.idea/*
+.DS_Store
+.vscode
+.hfai
+SGG_0909_OFA_base.pt
+SGG_0909_OFA_huge.pt
+SGG_0906_COCO_img_b64.tsv
+vqa_checkpoints/
+__pycache__/
+*.pt

@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/site-packages/torch/__init__.py", line 23, in <module>
+    from ._utils_internal import get_file_path, prepare_multiprocessing_environment, \
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/site-packages/torch/_utils_internal.py", line 5, in <module>
+    import tempfile
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/tempfile.py", line 45, in <module>
+    from random import Random as _Random
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/random.py", line 46, in <module>
+    from hashlib import sha512 as _sha512
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/hashlib.py", line 160, in <module>
+    import _hashlib
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/site-packages/torch/__init__.py", line 23, in <module>
+    from ._utils_internal import get_file_path, prepare_multiprocessing_environment, \
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/site-packages/torch/_utils_internal.py", line 3, in <module>
+    import inspect
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/inspect.py", line 1087, in <module>
+    'args, varargs, varkw, defaults, kwonlyargs, kwonlydefaults, annotations')
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/collections/__init__.py", line 387, in namedtuple
+    arg_list = repr(field_names).replace("'", "")[1:-1]
+KeyboardInterrupt
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Killing subprocess 851055
+Killing subprocess 851056
+Main process received SIGINT, exiting
+Traceback (most recent call last):
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/home/yutianyu/miniconda3/envs/OFA/lib/python3.7/site-packages/torch/__init__.py", line 196, in <module>
+    from torch._C import *
+RuntimeError: KeyboardInterrupt: 
